@@ -44,6 +44,7 @@ const tabsAppender = (selector) => {
       const tabsParent = document.querySelector(selector);
       tabsParent.appendChild(myTabsElem);
     });
+
 }
 
 export { Tabs, tabsAppender }
