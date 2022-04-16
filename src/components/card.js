@@ -47,6 +47,11 @@ const Card = (article) => {
   card.appendChild(headline);
   card.appendChild(authDiv);
 
+  card.addEventListener('click', (event) => {
+    const head = card.querySelector('.headline');
+    console.log(head.textContent);
+    });
+
   return card;
 }
 
